@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <ul>
+    <li>
+      <button mat-button class="menu-button">
+        <a routerLink="/">
+          <mat-icon>home</mat-icon>
+          Home
+        </a>
+      </button>
+    </li>
+    <li *ngFor="let mfe of microfrontends">
+      <button mat-button class="menu-button">
+        <a [routerLink]="mfe.routePath">
+          <mat-icon>arrow_right_alt</mat-icon>
+          {{mfe.displayName}}
+        </a>
+      </button>
+    </li>
+  </ul>
+</mat-toolbar>
+<router-outlet></router-outlet>
