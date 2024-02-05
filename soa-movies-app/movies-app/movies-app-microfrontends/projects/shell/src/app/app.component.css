@@ -1,0 +1,37 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-toolbar {
+  height: 60px;
+  background: rgb(65, 4, 65);
+  color: white;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li button {
+  width: 100%;
+  display: block;
+}
+
+li button a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+mat-icon {
+  color: white;
+}

@@ -1,0 +1,19 @@
+<h2>Movies List</h2>
+<div *ngIf="movies" class="movies-list-wrapper">
+  <mat-card *ngFor="let movie of movies">
+    <mat-card-header>
+      <mat-card-title>
+        {{ movie.title }}
+        <button mat-button (click)="delete(movie.id)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <img [src]="movie.image" width="300" height="330">
+      <p>Year: {{ movie.year }}</p>
+      <p>Genre: {{movie.genre}}</p>
+      <p>Synopsis: <br> {{movie.synopsis}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
