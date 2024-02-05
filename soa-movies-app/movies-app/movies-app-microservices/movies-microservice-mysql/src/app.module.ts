@@ -10,7 +10,7 @@ import { MovieModule } from './movie/movie.module';
       host: 'movies_db_mysql', 
       port: 3306,
       username: 'root',
-      password: 'MyHoney15!',
+      password: 'Alarak19*',
       logging: true,
       database: 'movies-app',
       autoLoadEntities: true,

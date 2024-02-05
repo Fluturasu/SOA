@@ -19,8 +19,8 @@ services:
     environment:
       MYSQL_DATABASE: 'movies-app'
       MYSQL_ROOT_USER: 'root'
-      MYSQL_PASSWORD: 'MyHoney15!'
-      MYSQL_ROOT_PASSWORD: 'MyHoney15!'
+      MYSQL_PASSWORD: 'Alarak19*'
+      MYSQL_ROOT_PASSWORD: 'Alarak19*'
     ports:
       - '3306:3306'
     expose:

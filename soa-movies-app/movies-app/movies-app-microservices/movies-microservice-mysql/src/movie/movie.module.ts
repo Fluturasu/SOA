@@ -13,12 +13,12 @@ import { MovieService } from './movie.service';
             name: 'MOVIE_SERVICE',
             transport: Transport.RMQ,
             options: {
-                urls: ['amqps://zmfwdrpp:elIhm4tjtin_RaEuMY6LIKGwZ3f_-jSm@gull.rmq.cloudamqp.com/zmfwdrpp'],
-                queue: 'cars-queue',
-                queueOptions: {
-                    durable: false
-                },
-            },
+              urls: ['amqps://hiqsflmj:BdG0E9GhqGzExmOLEFucXdNKIIMCZBgS@crow.rmq.cloudamqp.com/hiqsflmj'],
+              queue: 'movies-queue2',
+              queueOptions: {
+                  durable: false
+              },
+          },
         },
       ])
     ],
